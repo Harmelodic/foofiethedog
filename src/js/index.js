@@ -17,18 +17,18 @@ window.onload = function() {
     },
     {
       imageId: "puppy1",
-      image: "puppy.jpg",
-      imageFlipped: "puppyFlipped.jpg"
+      image: "puppy.png",
+      imageFlipped: "puppyFlipped.png"
     },
     {
       imageId: "puppy2",
-      image: "puppyFlipped.jpg",
-      imageFlipped: "puppy.jpg"
+      image: "puppyFlipped.png",
+      imageFlipped: "puppy.png"
     },
     {
       imageId: "puppy3",
-      image: "puppy.jpg",
-      imageFlipped: "puppyFlipped.jpg"
+      image: "puppy.png",
+      imageFlipped: "puppyFlipped.png"
     }
   ]
   
