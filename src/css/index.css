@@ -1,0 +1,69 @@
+:root {
+  --border-size: 100px;
+}
+
+body {
+  display: flex;
+  flex-flow: wrap;
+  background: #000;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-size: 0;
+}
+
+.center {
+  height: calc(100% - (var(--border-size) * 2));
+}
+
+.border {
+  background: yellow;
+}
+
+#centerSquare {
+  display: flex;
+  width: calc(100% - (var(--border-size) * 2));
+}
+
+#centerSquareItem {
+  height: 100%;
+}
+
+#borderTop {
+  width: 100%;
+  height: var(--border-size);
+}
+
+#borderLeft {
+  width: var(--border-size);
+}
+
+#menu {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 25%;
+}
+
+#focus {
+  display: flex;
+  flex-flow: column;
+  width: 50%;
+}
+
+#puppyHeads {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 25%;
+}
+
+#borderRight {
+  width: var(--border-size);
+}
+
+#borderBottom {
+  width: 100%;
+  height: var(--border-size);
+}

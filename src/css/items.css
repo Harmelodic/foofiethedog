@@ -1,0 +1,25 @@
+.menuItem {
+  width: 100%;
+  height: 150px;
+  margin: 40px 0;
+  background: #fff;
+}
+
+.puppy {
+  width: 200px;
+  height: 200px;
+  margin: 40px;
+  background: yellow;
+}
+
+#foofie {
+  background: red;
+  width: 100%;
+  height: 25%;
+}
+
+#dog {
+  background: green;
+  width: 100%;
+  height: 75%;
+}
