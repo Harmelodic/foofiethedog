@@ -17,7 +17,7 @@ body {
 }
 
 .border {
-  background: yellow;
+  background: url("../images/border-tile.png");
 }
 
 #centerSquare {
