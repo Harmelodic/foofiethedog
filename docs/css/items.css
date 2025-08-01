@@ -15,15 +15,15 @@
 }
 
 #bio {
-  background-image: url("../images/bone.png");
+  background-image: url("../images/bio-left.png");
 }
 
 #treats {
-  background-image: url("../images/bone.png");
+  background-image: url("../images/treats-left.png");
 }
 
 #walks {
-  background-image: url("../images/boneFlipped.png");
+  background-image: url("../images/walks-right.png");
 }
 
 #puppy1 {
@@ -84,7 +84,7 @@
 }
 
 #dog {
-  background: url("../images/doggo.png") no-repeat center;
+  background: url("../images/foofie.png") no-repeat center;
   background-size: contain;
   width: 100%;
   height: 75%;

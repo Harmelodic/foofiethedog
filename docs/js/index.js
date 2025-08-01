@@ -1,44 +1,59 @@
-window.onload = function() {
-  var imagesToFlip = [
-    {
-      imageId: "bio",
-      image: "bone.png",
-      imageFlipped: "boneFlipped.png"
-    },
-    {
-      imageId: "treats",
-      image: "bone.png",
-      imageFlipped: "boneFlipped.png"
-    },
-    {
-      imageId: "walks",
-      image: "boneFlipped.png",
-      imageFlipped: "bone.png"
-    },
-    {
-      imageId: "puppy1",
-      image: "puppy.png",
-      imageFlipped: "puppyFlipped.png"
-    },
-    {
-      imageId: "puppy2",
-      image: "puppyFlipped.png",
-      imageFlipped: "puppy.png"
-    },
-    {
-      imageId: "puppy3",
-      image: "puppy.png",
-      imageFlipped: "puppyFlipped.png"
-    }
-  ]
-  
-  imagesToFlip.forEach(data => {
-    setInterval(function() {
-      var element = document.getElementById(data.imageId);
+// Attention to detail in comments
+// - In the video, the "treats and walks" is flipping back and forth just slightly after everything else is, so I put a
+//   80ms delay on them.
+// - "bio" and "treats" go "left/right" whereas "walks" goes "right/left".
+// - The puppy icons on the right side of the screen alternate facing left/right/left.
+// - When the top puppy is facing right, then the "bio" bone should have it's left side forward.
+window.onload = function () {
+	[
+		{
+			imageId: "bio",
+			image: "bio-left.png",
+			imageFlipped: "bio-right.png"
+		},
+		{
+			imageId: "puppy1",
+			image: "puppyFlipped.png",
+			imageFlipped: "puppy.png"
+		},
+		{
+			imageId: "puppy2",
+			image: "puppy.png",
+			imageFlipped: "puppyFlipped.png"
+		},
+		{
+			imageId: "puppy3",
+			image: "puppyFlipped.png",
+			imageFlipped: "puppy.png"
+		}
+	].forEach(item => {
+		flipBetween(item)
+	})
 
-      var current = element.style.backgroundImage;
+	setTimeout(() => {
+		[
+			{
+				imageId: "treats",
+				image: "treats-left.png",
+				imageFlipped: "treats-right.png"
+			},
+			{
+				imageId: "walks",
+				image: "walks-right.png",
+				imageFlipped: "walks-left.png"
+			},
+		].forEach(data => {
+			flipBetween(data)
+		});
+	}, 80)
+}
 
-      element.style.backgroundImage = current.includes(data.imageFlipped) ? `url('images/${data.image}')` : `url('images/${data.imageFlipped}')`;
-    }, 500);
-  });
+function flipBetween(data) {
+	setInterval(function () {
+		const element = document.getElementById(data.imageId);
+
+		const current = element.style.backgroundImage;
+
+		element.style.backgroundImage = current.includes(data.imageFlipped) ? `url('images/${data.image}')` : `url('images/${data.imageFlipped}')`;
+	}, 350);
 }
