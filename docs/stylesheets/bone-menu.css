@@ -1,0 +1,35 @@
+@font-face {
+	font-family: "Informal011";
+	src: url("../assets/informal011bt-roman.otf") format("opentype");
+}
+
+#leftColumn {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	width: 25%;
+}
+
+.menuItem {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 40px 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.bone {
+	display: flex;
+	height: 150px;
+}
+
+.menuItemText {
+	position: absolute;
+	font-family: Informal011, sans-serif;
+	font-size: 2.8rem;
+	color: #ec0000;
+	text-shadow: 1px 0 #880202, -1px 0 #880202, 0 1px #880202, 0 -1px #880202,
+	1px 1px #880202, -1px -1px #880202, 1px -1px #880202, -1px 1px #880202;
+}

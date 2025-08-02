@@ -1,0 +1,16 @@
+#rightColumn {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 25%;
+}
+
+.puppy {
+	display: flex;
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}

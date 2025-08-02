@@ -1,0 +1,46 @@
+#centerColumn {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 50%;
+}
+
+#foofieTextContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 25%;
+	font-size: 100px;
+	font-family: sans-serif;
+	color: gold;
+}
+
+#f1 {
+	transform: rotate(-25deg);
+}
+
+#o1 {
+	transform: rotate(-15deg);
+}
+
+#o2 {
+	transform: rotate(-5deg);
+}
+
+#f2 {
+	transform: rotate(5deg);
+}
+
+#i {
+	transform: rotate(15deg);
+}
+
+#e {
+	transform: rotate(25deg);
+}
+
+#foofieImage {
+	height: 75%;
+}
