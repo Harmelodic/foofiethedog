@@ -27,6 +27,7 @@
 
 .menuItemText {
 	position: absolute;
+	text-decoration: none;
 	font-family: Informal011, sans-serif;
 	font-size: 2.8rem;
 	color: #ec0000;

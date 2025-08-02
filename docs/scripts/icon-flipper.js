@@ -2,14 +2,14 @@
 // - In the video, the "treats and walks" is flipping back and forth just slightly after everything else is, so I put a
 //   80ms delay on them.
 // - "bio" and "treats" go "left/right" whereas "walks" goes "right/left".
-// - The puppy icons on the right side of the screen alternate facing left/right/left.
-// - When the top puppy is facing right, then the "bio" bone should have it's left side forward.
+// - The happy dog icons on the right side of the screen alternate facing left/right/left.
+// - When the top happy dog is facing right, then the "bio" bone should have it's left side forward.
 window.addEventListener("load", () => {
 	[
 		"bioBone",
-		"puppy1",
-		"puppy2",
-		"puppy3",
+		"happyDog1",
+		"happyDog2",
+		"happyDog3",
 	].forEach(item => {
 		flipBetween(item)
 	})

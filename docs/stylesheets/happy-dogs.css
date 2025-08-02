@@ -1,15 +1,14 @@
 #rightColumn {
 	display: flex;
 	flex-flow: column;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	width: 25%;
 }
 
-.puppy {
+.happyDog {
 	display: flex;
 	width: 200px;
-	height: 200px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
