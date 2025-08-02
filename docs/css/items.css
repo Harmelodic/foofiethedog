@@ -14,9 +14,10 @@
 	background-position: center;
 	background-size: contain;
 	font-family: Informal011, sans-serif;
-	font-size: 3rem;
+	font-size: 2.8rem;
 	color: #ec0000;
-	text-shadow: 0 0 10px #030355;
+	text-shadow: 1px 0 #880202, -1px 0 #880202, 0 1px #880202, 0 -1px #880202,
+				1px 1px #880202, -1px -1px #880202, 1px -1px #880202, -1px 1px #880202;
 }
 
 #bio {
@@ -36,7 +37,7 @@
 }
 
 #puppy2 {
-	background-image: url("../images/puppyFlipped.png");
+	background-image: url("../images/puppy-flipped.png");
 }
 
 #puppy3 {
