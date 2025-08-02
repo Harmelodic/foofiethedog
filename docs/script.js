@@ -52,8 +52,11 @@ function flipBetween(data) {
 	setInterval(function () {
 		const element = document.getElementById(data.imageId);
 
-		const current = element.style.backgroundImage;
+		if (element.style.backgroundImage.includes(data.image)) {
+			element.style.backgroundImage = `url('assets/${data.imageFlipped}')`;
+		} else {
+			element.style.backgroundImage = `url('assets/${data.image}')`;
+		}
 
-		element.style.backgroundImage = current.includes(data.imageFlipped) ? `url('images/${data.image}')` : `url('images/${data.imageFlipped}')`;
 	}, 350);
 }
