@@ -4,7 +4,7 @@
 // - "bio" and "treats" go "left/right" whereas "walks" goes "right/left".
 // - The puppy icons on the right side of the screen alternate facing left/right/left.
 // - When the top puppy is facing right, then the "bio" bone should have it's left side forward.
-window.onload = function () {
+window.addEventListener("load", () => {
 	[
 		"bioBone",
 		"puppy1",
@@ -22,7 +22,8 @@ window.onload = function () {
 			flipBetween(data)
 		});
 	}, 50)
-}
+
+})
 
 function flipBetween(elementId) {
 	setInterval(function () {
