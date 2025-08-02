@@ -8,22 +8,22 @@ window.onload = function () {
 	[
 		{
 			imageId: "bio",
-			image: "bio-left.png",
-			imageFlipped: "bio-right.png"
+			image: "bone3D-flipped.png",
+			imageFlipped: "bone3D.png"
 		},
 		{
 			imageId: "puppy1",
-			image: "puppyFlipped.png",
+			image: "puppy-flipped.png",
 			imageFlipped: "puppy.png"
 		},
 		{
 			imageId: "puppy2",
 			image: "puppy.png",
-			imageFlipped: "puppyFlipped.png"
+			imageFlipped: "puppy-flipped.png"
 		},
 		{
 			imageId: "puppy3",
-			image: "puppyFlipped.png",
+			image: "puppy-flipped.png",
 			imageFlipped: "puppy.png"
 		}
 	].forEach(item => {
@@ -34,13 +34,13 @@ window.onload = function () {
 		[
 			{
 				imageId: "treats",
-				image: "treats-left.png",
-				imageFlipped: "treats-right.png"
+				image: "bone3D-flipped.png",
+				imageFlipped: "bone3D.png"
 			},
 			{
 				imageId: "walks",
-				image: "walks-right.png",
-				imageFlipped: "walks-left.png"
+				image: "bone3D.png",
+				imageFlipped: "bone3D-flipped.png"
 			},
 		].forEach(data => {
 			flipBetween(data)
