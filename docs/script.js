@@ -6,57 +6,33 @@
 // - When the top puppy is facing right, then the "bio" bone should have it's left side forward.
 window.onload = function () {
 	[
-		{
-			imageId: "bio",
-			image: "bone3D-flipped.png",
-			imageFlipped: "bone3D.png"
-		},
-		{
-			imageId: "puppy1",
-			image: "puppy-flipped.png",
-			imageFlipped: "puppy.png"
-		},
-		{
-			imageId: "puppy2",
-			image: "puppy.png",
-			imageFlipped: "puppy-flipped.png"
-		},
-		{
-			imageId: "puppy3",
-			image: "puppy-flipped.png",
-			imageFlipped: "puppy.png"
-		}
+		"bioBone",
+		"puppy1",
+		"puppy2",
+		"puppy3",
 	].forEach(item => {
 		flipBetween(item)
 	})
 
 	setTimeout(() => {
 		[
-			{
-				imageId: "treats",
-				image: "bone3D-flipped.png",
-				imageFlipped: "bone3D.png"
-			},
-			{
-				imageId: "walks",
-				image: "bone3D.png",
-				imageFlipped: "bone3D-flipped.png"
-			},
+			"treatsBone",
+			"walksBone",
 		].forEach(data => {
 			flipBetween(data)
 		});
-	}, 80)
+	}, 50)
 }
 
-function flipBetween(data) {
+function flipBetween(elementId) {
 	setInterval(function () {
-		const element = document.getElementById(data.imageId);
+		const htmlElement = document.getElementById(elementId);
 
-		if (element.style.backgroundImage.includes(data.image)) {
-			element.style.backgroundImage = `url('assets/${data.imageFlipped}')`;
+		if (htmlElement.classList.contains("flipped")) {
+			htmlElement.classList.remove("flipped");
 		} else {
-			element.style.backgroundImage = `url('assets/${data.image}')`;
+			htmlElement.classList.add("flipped");
 		}
 
-	}, 350);
+	}, 400);
 }
