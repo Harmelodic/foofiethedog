@@ -32,7 +32,7 @@ This is all of them.
     <sup>L</sup>
 19. Has run every [killer app](https://en.wikipedia.org/wiki/Killer_application).<sup>L</sup>
 20. Is good at (is number one) [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language)).<sup>L</sup>
-21. Does programming in the shower.<sup>MV</sup>
+21. Uses a computer in the shower.<sup>MV</sup>
 22. Does [vector calculus](https://en.wikipedia.org/wiki/Vector_calculus) just for fun.<sup>L</sup>
 23. Owns a [soldering gun](https://en.wikipedia.org/wiki/Soldering_gun).<sup>L</sup>
 24. Favourite theme song is ["Happy Days"](https://www.youtube.com/watch?v=slvGKU7HF6M).<sup>L</sup>
@@ -63,8 +63,8 @@ This is all of them.
 48. Was in AV Club (Audio-Visual Club / Tech crew for school productions).<sup>L</sup>
 49. Was in [Glee Club](https://en.wikipedia.org/wiki/Glee_club).<sup>L</sup>
 50. Was in the [Chess Team / Club](https://en.wikipedia.org/wiki/Chess_club).<sup>L</sup>
-51. Finds the question [Kirk](https://en.wikipedia.org/wiki/James_T._Kirk)
-    or [Picard](https://en.wikipedia.org/wiki/Jean-Luc_Picard), a hard question.<sup>L</sup>
+51. Finds the question "[Kirk](https://en.wikipedia.org/wiki/James_T._Kirk)
+    or [Picard](https://en.wikipedia.org/wiki/Jean-Luc_Picard)?", a hard question.<sup>L</sup>
 52. Spends every weekend at the [Renaissance Fair](https://en.wikipedia.org/wiki/Renaissance_fair).<sup>L</sup>
 53. Has one's name on one's underwear.<sup>L</sup>
 54. Gets excited about [_The Star Wars Holiday Special_](https://en.wikipedia.org/wiki/Star_Wars_Holiday_Special).
