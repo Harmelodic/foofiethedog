@@ -27,6 +27,7 @@ The homage is not quite perfect. There are still some things to do:
 
 - The text `FOOFiE` is currently the wrong font for both the default state, and the "popped out" state.
 - The dotted border is not animated correctly.
+- The image of Foofie does swap back and forth to/from the other image of Foofie featured briefly in the music video.
 - The site is not mobile-friendly (not featured in the music video, but it would be nice if it did work and look good on
   a mobile phone).
 
